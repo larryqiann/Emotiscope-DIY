@@ -53,13 +53,13 @@ void init_tempo_fft() {
 }
 
 // Function to execute FFT
-void execute_tempo_fft(float *sample_history) {
+/*void execute_tempo_fft(float *sample_history) {
     float fft_output[FFT_BINS];
     esp_err_t ret = dsps_fft4r_fc32_ansi(sample_history, FFT_BINS, tempo_fft, FFT_BINS);
     if (ret != ESP_OK) {
         printf("Failed to execute FFT: %d\n", ret);
     }
-}
+}*/
 
 void log_spectral_flux(){
 	static uint32_t next_update = t_now_us;
@@ -307,9 +307,9 @@ void normalize_novelty_curve() {
 	}, __func__ );
 }
 
-void update_tempo_fast(){
+/*void update_tempo_fast(){
 	execute_fft(sample_history);
-}
+}*/
 
 void update_tempo() {
 	profile_function([&]() {

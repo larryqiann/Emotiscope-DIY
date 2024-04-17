@@ -7,7 +7,7 @@
 #define LED_DATA_2_PIN ( 17 )
 
 // It won't void any kind of stupid warranty, but things will *definitely* break at this point if you change this number.
-#define NUM_LEDS ( 128 )
+#define NUM_LEDS ( 148 )
 
 // 32-bit color input
 extern CRGBF leds[NUM_LEDS];
