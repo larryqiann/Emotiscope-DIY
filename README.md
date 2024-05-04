@@ -1,4 +1,4 @@
-**This repo is not updated**.
+**This fork repo is not updated**.
 
 It appears to be very difficult to sync new changes from upstream to keep maintaining this. Instead, I've switched to just maintaining a patch for my personal installs.
 If you are interested in building this yourself, I've opened an issue on upstream with instructions. If you need help, you're welcome to ask here or on that thread
